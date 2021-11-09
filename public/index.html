@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    </link>
+    <title>Destinations</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">Where Have You Traveled?</div>
+        <div id="myCounter"></div>
+
+        <div class="sub-container">
+            <input type="text" id="user-destination" placeholder="Enter a Destination" />
+            <button id="submit-button">Send</button>
+        </div>
+
+        <div class="sub-container-list">
+            <div id="allDestinations"></div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
